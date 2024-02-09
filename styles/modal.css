@@ -1,0 +1,38 @@
+body .vmodal .modal-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+body .vmodal .modal-overlay .modal-window {
+  width: 600px;
+  border-radius: 5px;
+  background: #fff;
+  margin: 100px auto;
+}
+body .vmodal .modal-overlay .modal-window .modal-header {
+  padding: 5px 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .vmodal .modal-overlay .modal-window .modal-header .modal__title {
+  font-size: 1.5rem;
+}
+body .vmodal .modal-overlay .modal-window .modal-header .modal__close {
+  cursor: pointer;
+}
+body .vmodal .modal-overlay .modal-window .modal-body {
+  padding: 10px;
+}
+body .vmodal .modal-overlay .modal-window .modal-body p {
+  margin: 0 0 5px;
+}
+body .vmodal .modal-overlay .modal-window .modal-footer {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-top: 1px solid #eee;
+}/*# sourceMappingURL=modal.css.map */
